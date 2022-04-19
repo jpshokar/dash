@@ -4,7 +4,7 @@
 BOOT=/dev/sda1
 SWAP=/dev/sda2
 ROOT=/dev/sda3
-PACKAGES="base linux linux-firmware broadcom-wl networkmanager grub efibootmgr"
+PACKAGES="base linux linux-firmware broadcom-wl networkmanager grub efibootmgr base-devel"
 
 echo "Before progressing I encourage you to validate the currently configured settings by viming into this shell script."
 echo "After you have done so. Please press any key to continue."
