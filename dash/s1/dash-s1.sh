@@ -4,7 +4,7 @@ echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
 echo "LANG=en_US.UTF-8" >> /etc/locale.conf
 HOSTNAME=archy
-echo HOSTNAME >> /etc/hostname
+echo $HOSTNAME >> /etc/hostname
 mkinitcpio -P
 echo "Please enter a password:"
 passwd
